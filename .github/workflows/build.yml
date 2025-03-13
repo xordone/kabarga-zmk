@@ -6,5 +6,11 @@ on:
       - config/**
       
 jobs:
+  pre:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        uses: ls -la
+
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
