@@ -119,7 +119,7 @@
                          &kp LEFT_CONTROL  &kp LSHFT  &kp SPACE    &kp RET       &kp LSHFT  &kp LALT
             >;
 
-            label = "game";
+            label = "GAME";
         };
 
         sym {
