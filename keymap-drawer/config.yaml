@@ -357,6 +357,10 @@ parse_config:
     RG(RS(V)):
       tap: $$mdi:video$$
       hold: zoom
+    # My macro
+    '&td_tester': $$mdi:dance-ballroom$$
+    '&tap_comma': $$mdi:music-note-whole$$
+    '&tap_dot': $$mdi:music-note-whole-dotted$$
 
 
   svg_extra_style: |
