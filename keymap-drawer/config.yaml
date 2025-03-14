@@ -43,7 +43,10 @@ parse_config:
     # "&cmo L2":
     #   tap: $$mdi:close-box$$
     #   hold: L2
-
+    # My macro
+    "&td_tester": $$mdi:dance-ballroom$$
+    "&comma": $$mdi:music-note-whole$$
+    "&dot": $$mdi:music-note-whole-dotted$$
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
@@ -357,10 +360,7 @@ parse_config:
     RG(RS(V)):
       tap: $$mdi:video$$
       hold: zoom
-    # My macro
-    "&td_tester": $$mdi:dance-ballroom$$
-    "&comma": $$mdi:music-note-whole$$
-    "&dot": $$mdi:music-note-whole-dotted$$
+
 
 
   svg_extra_style: |
