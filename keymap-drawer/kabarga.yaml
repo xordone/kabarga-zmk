@@ -37,10 +37,10 @@ layers:
   - {t: /, s: '?'}
   - Ctl+$$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '&comma', h: NUM}
+  - {t: '$$mdi:music-note-whole$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: RET, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '&dot', h: NAV}
+  - {t: '$$mdi:music-note-whole-dotted$$', h: NAV}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -165,7 +165,7 @@ layers:
   - '}'
   - '|'
   - '~'
-  - '&td_tester'
+  - $$mdi:dance-ballroom$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
