@@ -35,7 +35,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - Ctl+$$mdi:apple-keyboard-shift$$
+  - {t: '&en_lang', h: '&ru_lang'}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:music-note-whole$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
