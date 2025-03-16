@@ -5,9 +5,18 @@
  */
 // #include <behaviors.dtsi>
 // #include <dt-bindings/zmk/keys.h>
+// #include <dt-bindings/zmk/bt.h>
+// #include <dt-bindings/zmk/outputs.h>
+// #include <dt-bindings/zmk/ext_power.h>
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+
+#define MAIN    0
+#define NUM     1
+#define NAV     2
+#define SYM     3
+#define GAME    4
 
 &sk { quick-release; };
 
@@ -112,7 +121,7 @@
             tapping-term-ms = <400>;
         };
     };
-
+    
     keymap {
         compatible = "zmk,keymap";
 
