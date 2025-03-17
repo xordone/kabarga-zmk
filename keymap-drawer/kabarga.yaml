@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: kabarga}
 layers:
   MAIN:
   - {t: '$$mdi:keyboard-esc$$', s: '`'}
@@ -5,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - {t: T, h: '`'}
+  - T
   - Y
   - U
   - I
@@ -24,18 +25,18 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '&ru_lang', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   - Z
   - X
   - C
   - V
   - B
   - N
-  - {t: M, h: ']'}
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&en_lang'
+  - {t: '&en_lang', h: '&ru_lang'}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:music-note-whole$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
