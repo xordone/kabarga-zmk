@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '&ru_lang', h: '$$mdi:apple-keyboard-option$$'}
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '&en_lang', h: '&ru_lang'}
+  - '&en_lang'
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:music-note-whole$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
