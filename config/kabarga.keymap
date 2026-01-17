@@ -164,7 +164,7 @@
             bindings = <
 &none         &kp EXCL  &kp AT  &kp HASH    &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp LBRC  &kp RBRC
 &kp TAB       &none     &none   &none       &none     &kp PLUS   &kp MINUS  &kp DLLR  &kp PRCNT  &kp CARET  &kp LBKT  &kp RBKT
-&kp LEFT_ALT  &none     &none   &none       &none     &kp EQUAL  &kp UNDER  &kp EXCL  &kp AT     &kp HASH   &kp LPAR  &kp RPAR
+&kp LEFT_ALT  &none     &none   &kp LT      &kp GT    &kp EQUAL  &kp UNDER  &kp EXCL  &kp AT     &kp HASH   &kp LPAR  &kp RPAR
                                 &td_tester  &none     &none                 &mo 5     &none      &to 4
             >;
 
