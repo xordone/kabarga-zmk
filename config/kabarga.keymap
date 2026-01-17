@@ -151,10 +151,10 @@
 
         nav {
             bindings = <
-&none  &none  &none  &none      &none  &none      &none  &kp LC(LEFT)  &kp LC(UP)  &kp LC(DOWN)       &kp LC(RIGHT)  &to 0
-&none  &none  &none  &none      &none  &none      &none  &kp LEFT      &kp UP      &kp DOWN           &kp RIGHT      &none
-&none  &none  &none  &none      &none  &none      &none  &kp HOME      &kp PG_UP   &kp PG_DN          &kp END        &none
-                     &kp LCTRL  &mo 3  &kp SPACE         &kp RET       &none       &kp LC(BACKSPACE)
+&none  &none  &none  &none      &none  &none      &none  &kp LC(LEFT)  &kp UP     &kp LC(RIGHT)      &none    &to 0
+&none  &none  &none  &none      &none  &none      &none  &kp LEFT      &kp DOWN   &kp RIGHT          &none    &none
+&none  &none  &none  &none      &none  &none      &none  &kp HOME      &kp PG_UP  &kp PG_DN          &kp END  &none
+                     &kp LCTRL  &mo 3  &kp SPACE         &kp RET       &none      &kp LC(BACKSPACE)
             >;
 
             label = "NAV";
@@ -162,10 +162,10 @@
 
         sym {
             bindings = <
-&none         &kp EXCL  &kp AT  &kp HASH    &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &gresc
-&kp TAB       &none     &none   &none       &none     &none      &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LEFT_ALT  &none     &none   &none       &none     &none      &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                &td_tester  &none     &none                 &mo 5      &none      &to 4
+&none         &kp EXCL  &kp AT  &kp HASH    &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp LBRC  &kp RBRC
+&kp TAB       &none     &none   &none       &none     &kp PLUS   &kp MINUS  &kp DLLR  &kp PRCNT  &kp CARET  &kp LBKT  &kp RBKT
+&kp LEFT_ALT  &none     &none   &none       &none     &kp EQUAL  &kp UNDER  &kp EXCL  &kp AT     &kp HASH   &kp LPAR  &kp RPAR
+                                &td_tester  &none     &none                 &mo 5     &none      &to 4
             >;
 
             label = "SYM";
